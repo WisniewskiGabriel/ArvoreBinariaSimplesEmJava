@@ -70,14 +70,14 @@ public class AtividadeArvoreBinaria {
         java.util.Scanner scanner = new java.util.Scanner(System.in);
         ArvoreBinaria arvoreBinaria = new ArvoreBinaria();
 
-        System.out.println("Digite os números para inserir na árvore:");
+        System.out.println("Perfomar input de números:");
 
         for (int i = 0; i < 5; i++) {
             int numero = scanner.nextInt();
             arvoreBinaria.inserirNo(numero);
         }
 
-        System.out.println("Exibindo árvore:");
+        System.out.println("Árvore final:");
         arvoreBinaria.exibirNos();
     }
 }
